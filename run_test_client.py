@@ -1,7 +1,8 @@
 from fastmcp import Client, FastMCP
 import asyncio
 
-client = Client("http://187.124.112.103/mcp", verify=False)
+#client = Client("http://187.124.112.103/mcp", verify=False)
+client = Client("https://employed-absent-prize-himself.trycloudflare.com/mcp", verify=False)
 
 
 async def main():
